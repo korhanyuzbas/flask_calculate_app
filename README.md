@@ -11,7 +11,7 @@ Docker CE
 ### Clone Repository
 
 ```bash
-git clone https://github.com/korhanyuzbas/creainc
+git clone https://github.com/korhanyuzbas/flask_calculate_app.git
 ```
 
 ### Build & Launch
