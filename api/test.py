@@ -2,7 +2,7 @@ import unittest
 import app
 
 
-class SyncTasks(unittest.TestCase):
+class TestApp(unittest.TestCase):
     def test_endpoints__success(self):
         with app.test_client() as c:
             response = c.post('/calculate', json={'first_number': 3.5, 'second_number': 1.59})
